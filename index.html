@@ -1,8 +1,90 @@
-<!DOCTYPE html> <html> <head> <meta charset=utf-8> <title>Modal</title> <meta name=description content=""> <meta name=viewport content="width=device-width,initial-scale=1"> <link rel="shortcut icon" href=/favicon.b25e58c4.ico> <link rel=apple-touch-icon href=/apple-touch-icon.9727d3c2.png> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/vendor.eb8f542f.css> <link rel=stylesheet href=styles/main.79c1f87e.css>  <body> <!--[if lt IE 10]>
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Modal</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.b25e58c4.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.9727d3c2.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="styles/vendor.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <div class=container> <div class=jumbotron> <h1>Vive La Fete</h1> </div> <div id=test-popup class="white-popup mfp-hide row"> <div id=restrictions> <h1>Restrictions Apply</h1> <ul> <li>Only redeemable at <a href=http://www.vivelafete.com>Vivelafete.com</a></li> <li>Collegiate and Sales Merchandise are not included</li> <li>Discount cannot be combined</li> <li>Redeemable for merchandise only</li> <li>No minimum of items per order</li> <li>Not valid on previous purchases</li> <li>Discount given at the time of purchase will be deducted from returned merchandise</li> <li>In the event of a return or exchange, discount will be forfeited and may not be reused</li> </ul> <div class=text-center> <a class=close-btn href=# onclick="toggle_visibility('restrictions')">Close</a> </div> </div> <img class=col-xs-6 src=images/modal-girl-bg.24b95cd5.jpg> <div class="modal-body col-xs-6"> <div class="text-center heading"> <!--<img class="brand" src="https://www.vivelafete.com/skin/frontend/vivelafete/default/images/logo.jpg" alt=""/>--> <h1>Celebrate Labor Day</h1> <h2> 40% OFF </h2> <p>*selected items only</p> </div> <div class="buttons text-center"> <a href="https://www.vivelafete.com/customer/account/create/">Subscribe NOW and SHOP</a> <a href="https://www.vivelafete.com/customer/account/login/">I'm already subscribed </a> <a href="https://www.vivelafete.com/" class=secondary>Subscribe LATER</a> </div> <div class="terms-anchor text-center"> <a href=# onclick="toggle_visibility('restrictions')">Restrictions apply</a> </div> </div> </div> </div> <script src=scripts/vendor.1da775d5.js></script> <script src=scripts/plugins.19a1d77b.js></script> <script src=scripts/main.3ae2aec6.js></script> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --> <script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    <![endif]-->
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Vive La Fete</h1>
+      </div>
+
+      <div id="test-popup" class="white-popup mfp-hide row">
+        <div id="restrictions">
+          <h1>Restrictions Apply</h1>
+          <ul>
+            <li>Only redeemable at <a href="http://www.vivelafete.com">Vivelafete.com</a></li>
+            <li>Collegiate and Sales Merchandise are not included</li>
+            <li>Discount cannot be combined</li>
+            <li>Redeemable for merchandise only</li>
+            <li>No minimum of items per order</li>
+            <li>Not valid on previous purchases</li>
+            <li>Discount given at the time of purchase will be deducted from returned merchandise</li>
+            <li>In the event of a return or exchange, discount will be forfeited and may not be reused</li>
+          </ul>
+
+          <div class="text-center">
+            <a class="close-btn" href="#" onclick="toggle_visibility('restrictions');">Close</a>
+          </div>
+        </div>
+
+
+        <img class='col-xs-6' src="images/modal-girl-bg.24b95cd5.jpg">
+        <div class='modal-body col-xs-6'>
+          <div class="heading">
+            <!--<img class="brand" src="https://www.vivelafete.com/skin/frontend/vivelafete/default/images/logo.jpg" alt=""/>-->
+            <h1 class="text-center">Celebrate Labor Day</h1>
+            <h2 class="text-center"> 40% OFF </h2>
+            <p class="pull-right">*selected items only</p>
+          </div>
+
+          <div class="buttons ">
+            <a class="modal-btn text-center" href="https://www.vivelafete.com/customer/account/create/">Subscribe NOW and SHOP</a>
+            <div class="text-right">
+              <a class="secondary text-right" href="https://www.vivelafete.com/">Subscribe LATER</a>
+            </div>
+
+            <a class="modal-btn text-center" href="https://www.vivelafete.com/customer/account/login/">I'm already subscribed </a>
+          </div>
+
+          <div class="terms-anchor text-center">
+            <a href="#" onclick="toggle_visibility('restrictions');">Restrictions apply</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="scripts/vendor.1da775d5.js"></script>
+
+
+    <script src="scripts/plugins.19a1d77b.js"></script>
+
+
+    <script src="scripts/main.3ae2aec6.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
       e=o.createElement(i);r=o.getElementsByTagName(i)[0];
       e.src='https://www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');</script>  
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+  </body>
+</html>
