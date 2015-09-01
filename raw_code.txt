@@ -1,0 +1,54 @@
+    <link rel="stylesheet" href="http://alexisibarra.github.io/vivelafete-modal/styles/vendor.css">
+    <link rel="stylesheet" href="http://alexisibarra.github.io/vivelafete-modal/styles/main.css">
+    <div id="test-popup" class="white-popup mfp-hide row">
+      <div id="restrictions">
+        <h1>Restrictions Apply</h1>
+        <ul>
+          <li>Only redeemable at <a href="http://www.vivelafete.com">Vivelafete.com</a></li>
+          <li>Collegiate and Sales Merchandise are not included</li>
+          <li>Discount cannot be combined</li>
+          <li>Redeemable for merchandise only</li>
+          <li>No minimum of items per order</li>
+          <li>Not valid on previous purchases</li>
+          <li>Discount given at the time of purchase will be deducted from returned merchandise</li>
+          <li>In the event of a return or exchange, discount will be forfeited and may not be reused</li>
+        </ul>
+
+        <div class="text-center">
+          <a class="close-btn" href="#" onclick="toggle_visibility('restrictions');">Close</a>
+        </div>
+      </div>
+
+
+      <img class='col-xs-6' src="http://alexisibarra.github.io/vivelafete-modal/images/modal-girl-bg.24b95cd5.jpg">
+      <div class='modal-body col-xs-6'>
+        <div class="heading">
+          <!--<img class="brand" src="https://www.vivelafete.com/skin/frontend/vivelafete/default/images/logo.jpg" alt=""/>-->
+          <h1 class="text-center">Celebrate Labor Day</h1>
+          <h2 class="text-center"> 40% OFF </h2>
+          <p class="pull-right">*selected items only</p>
+        </div>
+
+        <div class="buttons ">
+          <a class="modal-btn text-center" href="https://www.vivelafete.com/customer/account/create/">Subscribe NOW and SHOP</a>
+          <div class="text-right">
+            <a class="secondary text-right" href="https://www.vivelafete.com/customer/account/login/">I'm already subscribed</a>
+          </div>
+
+          <a class="modal-btn text-center" href="https://www.vivelafete.com/">Subscribe LATER</a>
+        </div>
+
+        <div class="terms-anchor text-center">
+          <a href="#" onclick="toggle_visibility('restrictions');">Restrictions apply</a>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="http://alexisibarra.github.io/vivelafete-modal/scripts/vendor.1da775d5.js"></script>
+
+
+    <script src="http://alexisibarra.github.io/vivelafete-modal/scripts/plugins.19a1d77b.js"></script>
+
+
+    <script src="http://alexisibarra.github.io/vivelafete-modal/scripts/main.3ae2aec6.js"></script>
